@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="rps.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent Marker">
+        <title>The one with the rock paper scissors game</title>
+    </head>
+      <body>
+         <div class="initalpage">
+            <div id="sbutton" >
+                <button id="startbttn">S<span id="friendsdotf">.</span>T<span id="friendsdots">.</span>A<span id="friendsdott">.</span>R<span id="friendsdotfo">.</span>T</button>
+            </div>
+            <div id="how_to_play">
+                <h2> How<span id="friendsdotf">.</span> to<span id="friendsdots">.</span> play?</h2>
+                <p> This is like regular rock paper scissors but with a friendly twist. Along with the rules of traditional rock paper scissors, here are the additional rules: </p>
+                <ol>
+                    <li>Fire beats paper and scissors</li>
+                    <li>Rock and water balloon beat fire</li>
+                    <li>Water balloon beats fire and paper</li>
+                    <li>Scissors and rock beats water balloon</li>
+                </ol>
+                <p>You might think the game is silly but your point of view is a  moo point anyways!</p>
+
+            </div>
+         </div>
+
+         <div class="gamepage">
+            <div class="computerside">
+
+            </div>
+            <div class="userside">
+                <ul>
+                    <li><button class="gamebttn fire"><img src="fire.png" alt="fire" id="gameimg"/></button></li>
+                    <li><button class="gamebttn water"><img src="water.png" alt="water balloon" id="gameimg"/></button></li>
+                    <li><button class="gamebttn rock"><img src="rock.png" alt="rock" id="gameimg"/></button></li>
+                    <li> <button class="gamebttn paper"><img src="paper.png" alt="paper" id="gameimg"/></button></li>
+                    <li> <button class="gamebttn scissor"><img src="scissor.png" alt="scissors" id="gameimg"/></button></li>
+                </ul>
+            </div>
+            <div class="userclickdisplay">
+                <img id="displayedUserImg" src="" alt="Clicked Image" width="80px" height="80px">
+            </div>
+            <div id="score">
+                <p> You: <span id="userScore"></span></p>
+                <p> Device: <span id="computerScore"></span></p>
+            </div>
+            <div class="computerdisplay">
+            <img id="displayedCompImg" src="" alt="Computer Image" width="80px" height="80px">
+            </div>
+         </div>
+         <script src="rps.js"></script>
+      </body>
+</html>
+
